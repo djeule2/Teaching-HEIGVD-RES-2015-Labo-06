@@ -1,0 +1,9 @@
+#!RESULT ERROR
+#!CONNECTION ldap://192.168.42.42:389
+#!DATE 2015-06-18T23:23:33.985
+#!ERROR [LDAP: error code 32 - The provided entry dc=heig,dc=ch cannot be added because its suffix is not defined as one of the suffixes within the Directory Server]
+dn: dc=heig, dc=ch 
+objectClass: domain
+objectClass: top
+dc: heig 
+
